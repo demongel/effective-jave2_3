@@ -4,7 +4,7 @@ import com.shakespace.effectivejava.model.Orange;
 
 import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Int;
 
-public class E010_Clone {
+public class E011_Clone {
     public static void main(String[] args) {
         Orange orange = new Orange();
         try {
