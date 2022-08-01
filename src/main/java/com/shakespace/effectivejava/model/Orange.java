@@ -1,7 +1,6 @@
 package com.shakespace.effectivejava.model;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
