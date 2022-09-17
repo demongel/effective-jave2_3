@@ -1,6 +1,4 @@
-package com.shakespace.effectivejava.edition3;
-
-import sun.java2d.loops.ProcessPath;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 import java.util.*;
 import java.util.stream.IntStream;

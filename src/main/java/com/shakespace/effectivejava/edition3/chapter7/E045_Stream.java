@@ -1,10 +1,8 @@
-package com.shakespace.effectivejava.edition3;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static java.util.stream.Collectors.toList;
 
 /**
  * 谨慎使用Stream

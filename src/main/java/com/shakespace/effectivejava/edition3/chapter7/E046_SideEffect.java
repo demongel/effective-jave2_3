@@ -1,8 +1,6 @@
-package com.shakespace.effectivejava.edition3;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 /**

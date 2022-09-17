@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava.edition3;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 /**
  * 1. 千万不要任意地并行Stream pipeline

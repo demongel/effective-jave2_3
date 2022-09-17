@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava.edition3;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 import java.nio.file.DirectoryStream;
 import java.time.Instant;

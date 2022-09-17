@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava.edition3;
+package com.shakespace.effectivejava.edition3.chapter7;
 
 import java.util.ArrayList;
 import java.util.Collections;
