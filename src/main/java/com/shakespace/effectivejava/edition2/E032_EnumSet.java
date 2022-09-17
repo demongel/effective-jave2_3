@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 import java.util.EnumSet;
 import java.util.Set;

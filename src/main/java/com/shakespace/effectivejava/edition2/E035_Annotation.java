@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 import java.lang.annotation.*;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +11,7 @@ public class E035_Annotation {
     public static void main(String[] args) throws ClassNotFoundException {
         int tests = 0;
         int passed = 0;
-//        Class<?> clazz = Class.forName("com.shakespace.effectivejava.Sample");
+//        Class<?> clazz = Class.forName("com.shakespace.effectivejava.edition2.Sample");
 //        for (Method m : clazz.getDeclaredMethods()) {
 //            if (m.isAnnotationPresent(Test.class)) {
 //                tests++;
@@ -34,7 +34,7 @@ public class E035_Annotation {
 //        System.out.printf("passed %d , Failed %d%n", passed, tests - passed);
 
         // 允许符合定义的异常
-        Class<?> clazz = Class.forName("com.shakespace.effectivejava.Sample2");
+        Class<?> clazz = Class.forName("com.shakespace.effectivejava.edition2.Sample2");
         for (Method m : clazz.getDeclaredMethods()) {
             if (m.isAnnotationPresent(ExceptionTest.class)) {
                 tests++;
@@ -151,7 +151,7 @@ class Sample2 {
 /**
  * java 1.8 , 可以使用 @Repeatable 进行多值注解
  * <p>
- * Invalid container annotation 'com.shakespace.effectivejava.ExceptionTestContainer': 'value' method should have type 'com.shakespace.effectivejava.ExceptionTest3[]'
+ * Invalid container annotation 'com.shakespace.effectivejava.edition2.ExceptionTestContainer': 'value' method should have type 'com.shakespace.effectivejava.edition2.ExceptionTest3[]'
  *
  * @Repeatable 参数是一个注解， 这个注解的 value 应该是被 Repeatable 注解的注解
  * <p>

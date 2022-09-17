@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 import com.shakespace.effectivejava.model.Apple;
 import org.jetbrains.annotations.NotNull;

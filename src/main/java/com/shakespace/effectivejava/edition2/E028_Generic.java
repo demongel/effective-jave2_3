@@ -1,7 +1,6 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 import com.shakespace.effectivejava.model.Stack;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.HashSet;
 import java.util.Iterator;

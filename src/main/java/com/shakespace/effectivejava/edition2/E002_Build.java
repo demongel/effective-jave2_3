@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 /**
  * 遇到可选参数很多都情况

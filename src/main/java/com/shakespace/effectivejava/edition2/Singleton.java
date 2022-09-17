@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 /**
  * 静态内部类的单例

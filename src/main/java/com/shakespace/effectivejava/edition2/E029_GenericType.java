@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
@@ -14,7 +14,7 @@ public class E029_GenericType {
 
     public static void main(String[] args) {
         //Exception in thread "main" java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
-        //	at com.shakespace.effectivejava.E029_GenericType.main(E029_GenericType.java:16)
+        //	at com.shakespace.effectivejava.edition2.E029_GenericType.main(E029_GenericType.java:16)
 //        String[] strings = pickTwo("a", "b", "c");
 
         Favorites fav = new Favorites();

@@ -1,4 +1,4 @@
-package com.shakespace.effectivejava;
+package com.shakespace.effectivejava.edition2;
 
 /**
  * 无法编写可以扩展的枚举类型，但是可以通过编写接口以及实现该接口的基础枚举类型来对它进行模拟
