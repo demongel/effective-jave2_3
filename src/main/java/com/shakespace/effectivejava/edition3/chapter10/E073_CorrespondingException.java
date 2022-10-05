@@ -1,10 +1,5 @@
 package com.shakespace.effectivejava.edition3.chapter10;
 
-import sun.awt.util.IdentityLinkedList;
-
-import java.util.ArrayList;
-import java.util.ListIterator;
-import java.util.NoSuchElementException;
 
 /**
  * 抛出与抽象概念【应该是指调用的抽象对象】对应的异常
