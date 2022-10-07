@@ -1,7 +1,5 @@
 package com.shakespace.effectivejava.model;
 
-import org.omg.CORBA.Object;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.EmptyStackException;

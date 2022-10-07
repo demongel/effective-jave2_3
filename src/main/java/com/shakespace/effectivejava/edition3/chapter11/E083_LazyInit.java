@@ -1,11 +1,5 @@
 package com.shakespace.effectivejava.edition3.chapter11;
 
-import sun.jvm.hotspot.debugger.Address;
-import sun.jvm.hotspot.debugger.MachineDescriptionAARCH64;
-import sun.jvm.hotspot.debugger.linux.LinuxDebuggerLocal;
-import sun.jvm.hotspot.oops.FieldType;
-import sun.jvm.hotspot.oops.Symbol;
-
 /**
  * 慎用延迟初始化
  * <p>
@@ -29,11 +23,11 @@ import sun.jvm.hotspot.oops.Symbol;
 public class E083_LazyInit {
 
     // Lazy initialization of instance field - synchronized accessor
-    private FieldType field;
+    private String field;
 
-    private synchronized FieldType getField() {
+    private synchronized String getField() {
         if (field == null)
-            field = new FieldType(Symbol.create(new LinuxDebuggerLocal(new MachineDescriptionAARCH64(), true).newAddress(1l)));
+            field = "";
         return field;
     }
 
